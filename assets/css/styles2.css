@@ -1,6 +1,7 @@
 .speakers-general{
   display: grid;
   grid-template-columns: auto;
+
 }
 
 .speakers-general .card{
@@ -8,7 +9,7 @@
     transition: 0.3s;
     width: 80%;
     margin: 5% 10%;
-    
+
     background: white;
 }
 
@@ -16,13 +17,14 @@
   .speakers-general{
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 2em;
+    grid-gap: 1em;
   }
   .speakers-general .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 75vw;
 }
+
 }
 
 /* Single Speaker */
