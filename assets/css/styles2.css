@@ -2,6 +2,9 @@
   height:15rem;
 }
 
+.excel-logo{
+  height:12.5rem;
+}
 .speakers-general{
   display: grid;
   grid-template-columns: auto;
@@ -99,6 +102,9 @@
   .es-logo{
     height: 10rem;
   }
+  .excel-logo{
+    height: 7.5em;
+  }
   .speakers-general{
     display: grid;
     grid-template-columns: auto;
@@ -142,11 +148,11 @@
   margin: 0 auto;
   
 }
-.btn-blue  { color:#2eb58e; border: 2px solid #2eb58e; }
+.btn-blue  { color:#147088; border: 2px solid #147088; }
 .btn-blue:hover, .btn-blue:active, .btn-blue:focus  {
   color: #fff;
-  background-color: #2eb58e;
-  border: 2px solid #2eb58e;
+  background-color: #147088;
+  border: 2px solid #147088;
 }
 
 @media screen and (max-width: 470px) { /* iPhone Landscape */
