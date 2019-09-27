@@ -13,20 +13,14 @@
     background: white;
 }
 
-@media only screen and (max-width:650px) {
-  .speakers-general{
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 1em;
-  }
-  .speakers-general .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 75vw;
+.highlights-anchor{
+  text-decoration: none;
+  color: #555555;
 }
 
+.highlights-anchor .icon{
+  color: #147088;
 }
-
 /* Single Speaker */
 .speakers-single{
   display: grid;
@@ -57,7 +51,6 @@
   /*margin-top:-2em;*/
   padding:10vh;
 }
-
 
 .contact-card{
   text-align: left;
@@ -98,3 +91,26 @@
   color: #007bff;
   text-decoration: none;
 }
+@media only screen and (max-width:650px) {
+  .speakers-general{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1em;
+  }
+  .speakers-general .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 75vw;
+}
+.speakers-single .card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    margin:0% 10%;
+    margin-bottom: 5rem;
+    background: white;
+}
+
+}
+
+
