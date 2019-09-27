@@ -117,6 +117,43 @@
     margin-bottom: 5rem;
     background: white;
 }
+.btn-ghost {
+  width: 290px;/* width: 29.0rem;*/
+  height: 35px;/* height: 5.0rem;*/
+  font-size: 16px; /*font-size: 1.6rem;*/
+  line-height: 40px;/* line-height: 5.0rem;*/
+}
 }
 
 
+/* buttons */
+
+.btn-align { position: relative; top: 45%; }
+.btn-ghost {
+  display: block;
+  width: 340px; /*width: 34rem;*/
+  height: 66px; /*height: 6.6rem;*/
+  font: 700 20px/66px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font: 2.0rem/6.6rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .16s ease;
+  margin: 0 auto;
+  
+}
+.btn-blue  { color:#2eb58e; border: 2px solid #2eb58e; }
+.btn-blue:hover, .btn-blue:active, .btn-blue:focus  {
+  color: #fff;
+  background-color: #2eb58e;
+  border: 2px solid #2eb58e;
+}
+
+@media screen and (max-width: 470px) { /* iPhone Landscape */
+  .btn-ghost {
+    width: 260px;/* width: 29.0rem;*/
+    height: 50px;/* height: 5.0rem;*/
+    font-size: 17px; /*font-size: 1.6rem;*/
+    line-height: 50px; /*line-height: 5.0rem;*/
+  }
+}
