@@ -2992,7 +2992,7 @@ body.is-menu-visible #menu {
     @media screen and (max-width: 360px) , screen and (max-height: 640px) {
       .generalSpeaker .wrapper
       {
-       margin-left:-25px;
+       margin-left:-20px;
        width:27em;
       }
       
