@@ -2988,4 +2988,10 @@ body.is-menu-visible #menu {
     }
     
   
- 
+    @media screen and (max-width: 360px) , screen and (max-height: 640px) {
+      .generalSpeaker .wrapper
+      {
+       margin-right:12em;
+      }
+      
+    }
